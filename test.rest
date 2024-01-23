@@ -1,0 +1,20 @@
+GET http://127.0.0.1:8000/myapp/get-students/ 
+Content-Type: application/json
+
+{}
+
+###
+
+GET http://127.0.0.1:8000/myapp/filter-students/?name=haque&sid=&age=&gender=male
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://127.0.0.1:8000/myapp/add-student/ 
+Content-Type: application/json
+
+{"name": "Rubel Khan", "sid": "17171", "age": 21, "gender": "Male"}
+
+###
